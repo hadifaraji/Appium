@@ -9,7 +9,7 @@ driver.get("https://flytoday.ir")
 #source = driver.find_element(By.XPATH,"//*[text()='مبدا']")
 #source.click()
 #test = driver.find_elements(By.XPATH,"//*[@class='option_title__BYCIp']")
-#x = (random.choice(test))
+#x = random.choice(test)
 #x.click()
 #sleep(5)
 
