@@ -22,7 +22,7 @@ driver.find_element(by=AppiumBy.XPATH,value='//*[@text="Allow"]').click()
 sleep(5)
 driver.find_elements(by=AppiumBy.CLASS_NAME, value='android.view.ViewGroup')[5].click()
 sleep(5)
-driver.find_elements(by=AppiumBy.CLASS_NAME, value='android.widget.Button')[2].click() # مبدا
+driver.find_elements(by=AppiumBy.CLASS_NAME, value='android.widget.Button')[2].click()
 sleep(5)
 el1 = driver.find_elements(by=AppiumBy.XPATH,value="//*[@class = 'android.view.View']")
 el2 = random.choice(el1)

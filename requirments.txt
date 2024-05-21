@@ -1,0 +1,4 @@
+npm install -g appium   ->   appium driver list  --> appium driver install uiautomator2
+pip install Appium-python-Client
+برای باز کردن کروم روی گوشی
+appium server --allow-insecure chromedriver_autodownload
