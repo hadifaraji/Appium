@@ -28,6 +28,6 @@ City(driver).click_on_city(AppiumBy, sleep)
 Date(driver).date_of_login(AppiumBy, sleep)
 click_on_searchBox = driver.find_element(by=AppiumBy.XPATH, value='//*[@text="جستجو"]')
 click_on_searchBox.click()
-sleep(25)
+sleep(15)
 
 driver.quit()
